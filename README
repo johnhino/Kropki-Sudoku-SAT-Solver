@@ -1,0 +1,2 @@
+The sudoku solver requires the SAT4J core library, which can be downloaded at http://download.forge.ow2.org/sat4j/ , the file name should be sat4j-core-v20130525.zip.
+When you open the code in your IDE of choice (I used IntelliJ), just add the module to the project, which should be labeled org.sat4j.core.jar
