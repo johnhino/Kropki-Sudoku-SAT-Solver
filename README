@@ -1,5 +1,5 @@
 The sudoku solver requires the SAT4J core library, which can be downloaded at http://download.forge.ow2.org/sat4j/ , the file name should be sat4j-core-v20130525.zip.
 When you open the code in your IDE of choice (I used IntelliJ), just add the module to the project, which should be labeled org.sat4j.core.jar
 
-Note: Empty test method erroneously left in test files, it was meant to test for improper constraint inputs but this error handling is performed by the main
-method. 
+As shown in the test file, a Kropki Sudoku board with no dots is both satisfiable, and appears to only have one solution. Thus, a Sudoku board exists where no 
+adjacent cells have consecutive values, nor is any cell double that of an adjacent cell. 
